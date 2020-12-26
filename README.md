@@ -20,7 +20,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   <br>&nbsp;⑤ Open "Disk Utility" and format your USB pendrive according to this <a href="https://github.com/md-siam/Legion_Y730_running_Catalina/blob/master/images/USB_Formatting.png" target="_blank">configuration</a>.
   <br>&nbsp;⑥ Start "Terminal" from Launchpad>Other, and copy & paste the command below:
 
-<pre><span class="note">sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/<var>MyVolume</var>
+<pre><span class="note">sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</var>
 </span></pre>
 <p align="justify" > 
   <br>&nbsp;⑦ <i>"MyVolume"</i> - it is the name of your USB pen drive.
