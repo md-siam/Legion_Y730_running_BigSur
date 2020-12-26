@@ -17,7 +17,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   <br>&nbsp;② Install any macOS operating system(Sierra or later) into a <a href="https://www.youtube.com/watch?v=qdR3T2jKucE" target="_blank">VirtualBox</a>.
   <br>&nbsp;③ You can download the macOS_BigSur.dmg file from <a href="https://www.torrentmac.net/macos-catalina-10-15-6-19g73/" target="_blank">torrentmac.net</a>, then open it &emsp;&emsp;through VirtualBox and copy "macOS Big Sur Installer" into the "Applications" &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section of macOS.
   <br>&nbsp;④ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>.
-  <br>&nbsp;⑤ Open "Disk Utility" and format your USB pendrive according to this <a href="https://github.com/md-siam/Legion_Y730_running_Catalina/blob/master/images/USB_Formatting.png" target="_blank">configuration</a>.
+  <br>&nbsp;⑤ Open "Disk Utility" and format your USB pendrive according to this <a href="https://github.com/md-siam/Legion_Y730_running_BigSur/blob/master/images/USB_Formatting.png" target="_blank">configuration</a>.
   <br>&nbsp;⑥ Start "Terminal" from Launchpad>Other, and copy & paste the command below:
 
 <pre><span class="note">sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</var>
@@ -89,7 +89,7 @@ So, after successful macOS installation, enabled "Intel Virtual Technology" from
 
 ## Special Thanks To:
  - [tonymacx86](https://www.tonymacx86.com) for Clover
- - [gibMacOS](https://github.com/corpnewt/gibMacOS) for full macOS Catalina DMG file [sharing](https://github.com/corpnewt/gibMacOS)
+ - [gibMacOS](https://github.com/corpnewt/gibMacOS) for full macOS Big Sur DMG file [sharing](https://github.com/corpnewt/gibMacOS)
  - [@berkeringat__](https://twitter.com/berkeringat__) for providing his [EFI](https://www.dropbox.com/s/hfy1jwdja3wbj76/EFI_LEGION_Y740_10.14.6_V3.zip?dl=0) folder for Mojave
  - [ComputerTipsLaiju](https://www.youtube.com/watch?v=57aA8e9YQSg&t=66s) for macOS installation guide
  - [Jay Wardana](https://www.youtube.com/watch?v=j6Fa5r1Ufi0) for making video on Intel Wi-Fi fix
