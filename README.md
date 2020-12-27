@@ -15,17 +15,16 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   Here I will explain the process of making a bootable USB drive. So be patience:
   <br>&nbsp;① Size of the USB drive can be 16GB or more.
   <br>&nbsp;② Install any macOS operating system(Sierra or later) into a <a href="https://www.youtube.com/watch?v=qdR3T2jKucE" target="_blank">VirtualBox</a>.
-  <br>&nbsp;③ You can download the macOS_BigSur.dmg file from <a href="https://www.torrentmac.net/macos-catalina-10-15-6-19g73/" target="_blank">torrentmac.net</a>, then open it &emsp;&emsp;through VirtualBox and copy "macOS Big Sur Installer" into the "Applications" &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section of macOS.
-  <br>&nbsp;④ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>.
-  <br>&nbsp;⑤ Open "Disk Utility" and format your USB pendrive according to this <a href="https://github.com/md-siam/Legion_Y730_running_BigSur/blob/master/images/USB_Formatting.png" target="_blank">configuration</a>.
-  <br>&nbsp;⑥ Start "Terminal" from Launchpad>Other, and copy & paste the command below:
+  <br>&nbsp;③ You can download the macOS_BigSur.dmg file from <a href="https://github.com/corpnewt/gibMacOS" target="_blank">gibMacOS</a>, then open it &emsp;&emsp;through VirtualBox and copy "macOS Big Sur Installer" into the "Applications" &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section of macOS.
+  <br>&nbsp;④ Open "Disk Utility" and format your USB pendrive (USB3.0 is recommended) according to this <a href="https://github.com/md-siam/Legion_Y730_running_BigSur/blob/master/images/USB_Formatting.png" target="_blank">configuration</a>.
+  <br>&nbsp;⑤ Start "Terminal" from Launchpad>Other, and copy & paste the command below:
 
 <pre><span class="note">sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</var>
 </span></pre>
 <p align="justify" > 
-  <br>&nbsp;⑦ <i>"MyVolume"</i> - it is the name of your USB pen drive.
-  <br>&nbsp;⑧ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z &emsp;&nbsp;&nbsp;&nbsp;before placing it inside EFI partition).
-  <br>&nbsp;⑨ Done with bootable USB device.
+  <br>&nbsp;⑥ <i>"MyVolume"</i> - it is the name of your USB pen drive.
+  <br>&nbsp;⑦ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z &emsp;&nbsp;&nbsp;&nbsp;before placing it inside EFI partition).
+  <br>&nbsp;⑧ Done with bootable USB device.
 </p>
 
 ## BIOS Settings:
@@ -90,6 +89,7 @@ So, after successful macOS installation, enabled "Intel Virtual Technology" from
 ## Special Thanks To:
  - [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/) team for their easy tutorial
  - [gibMacOS](https://github.com/corpnewt/gibMacOS) for full macOS Big Sur DMG file [sharing](https://github.com/corpnewt/gibMacOS)
+ - [ProperTree](https://github.com/corpnewt/ProperTree) for providing a software to edit config.plist file
  - [@berkeringat__](https://twitter.com/berkeringat__) for providing his EFI folder for Big Sur
  - [ComputerTipsLaiju](https://www.youtube.com/watch?v=57aA8e9YQSg&t=66s) for macOS installation guide
  - [Jay Wardana](https://www.youtube.com/watch?v=j6Fa5r1Ufi0) for making video on Intel Wi-Fi fix
