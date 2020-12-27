@@ -15,7 +15,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   Here I will explain the process of making a bootable USB drive. So be patience:
   <br>&nbsp;① Size of the USB drive can be 16GB or more.
   <br>&nbsp;② Install any macOS operating system(Sierra or later) into a <a href="https://www.youtube.com/watch?v=qdR3T2jKucE" target="_blank">VirtualBox</a>.
-  <br>&nbsp;③ You can download the macOS_BigSur.dmg file from <a href="https://github.com/corpnewt/gibMacOS" target="_blank">gibMacOS</a>, then open it &emsp;&emsp;through VirtualBox and copy "macOS Big Sur Installer" into the "Applications" &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section of macOS.
+  <br>&nbsp;③ You can download the macOS_BigSur installation file from <a href="https://github.com/corpnewt/gibMacOS" target="_blank">gibMacOS</a>, then open it &emsp;&emsp;through VirtualBox and copy "macOS Big Sur Installer" into the "Applications" &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section of macOS.
   <br>&nbsp;④ Open "Disk Utility" and format your USB pendrive (USB3.0 is recommended) according to this <a href="https://github.com/md-siam/Legion_Y730_running_BigSur/blob/master/images/USB_Formatting.png" target="_blank">configuration</a>.
   <br>&nbsp;⑤ Start "Terminal" from Launchpad>Other, and copy & paste the command below:
 
