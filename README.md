@@ -58,7 +58,7 @@ So far everything is working smoothly, including the <b>Intel Wi-Fi card</b> ins
   <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ⓑ 7xxx: 7260, 7265 
   <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ⓒ 9xxx：9260, 9461, 9462, 9560 
   <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ⓓ 22000：ax200
-<br><br>Since the <i><a href="https://github.com/1hbb/OpenIntelWireless-Factory" target="_blank">Open Intel Wireless Factory</a></i> project is under development, the internet speed in 2.4GHz & in 5.0GHz signal is little bit slow. On the other hand, <b>Bluetooth</b> inside the Intel 9560 card works perfectly fine. To enable Intel 9560 Wi-Fi feature watch the video tutorial from: <a href="https://www.youtube.com/watch?v=j6Fa5r1Ufi0" target="_blank">here</a> and download the latest <b>itlwm.kext</b> & <b>HeliPort</b> app release from: <a href="https://github.com/1hbb/OpenIntelWireless-Factory" target="_blank">here</a>.
+<br><br>Since the <i><a href="https://github.com/1hbb/OpenIntelWireless-Factory" target="_blank">Open Intel Wireless Factory</a></i> project is under development, the internet speed in 2.4GHz & in 5.0GHz signal is little bit slow. On the other hand, <b>Bluetooth</b> inside the Intel 9560 card works perfectly fine. To enable Intel 9560 Wi-Fi feature watch the video tutorial from: <a href="https://youtu.be/ii2ZEPJ2lzg" target="_blank">here</a> and download the latest <b>itlwm.kext</b> & <b>HeliPort</b> app release from: <a href="https://github.com/1hbb/OpenIntelWireless-Factory" target="_blank">here</a>.
 </p>
 
 
