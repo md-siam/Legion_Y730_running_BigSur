@@ -2,7 +2,7 @@
 <p align="justify" >
 If you are a windows user and require macOS to learn XCode, then you can transform your windows machine into the Hackintosh machine. Remember, this tutorial is for educational purpose. I will be not responsible for any damage done to your device while installing macOS. Do at your own risk. This tutorial is only for Lenovo legion Y730/Y740. Back up your important files before starting. All files, that you require for macOS installation, are available in my GitHub page. This guide is in <b>chronological order</b>. So, do not miss any steps. Now let's begin.
 </p>
-<p align="center"><img src="images/macOS.png"></p>
+<p align="center"><img src="images/macOS_0.png"></p>
 
 
 ## Make Bootable USB with macOS Big Sur, on a Windows 10 machine:
